@@ -73,3 +73,8 @@ if (!require("BiocManager", quietly = TRUE))
 
 BiocManager::install(c("limma", "GEOquery", "clusterProfiler", 
                        "org.Hs.eg.db", "multiMiR"))
+## 🚧 Project Status / TODO
+
+Currently, this repository is under active development. **Please note that some underlying code and modular scripts still need to be uploaded and retained in the main branch.** Upcoming updates will include:
+- [ ] Full code for Phase 3 ADMET screening.
+- [ ] Automated bash scripts for the entire pipeline.
